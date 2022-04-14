@@ -1,16 +1,39 @@
-### Hi there 👋
+# Erlend Thune
 
-<!--
-**etsikt/etsikt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is my profile page for the work I do for the Norwegian directorate for education and training. 
 
-Here are some ideas to get you started:
+I use [another profile](https://github.com/erlendthune) for my private projects. 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Below is a description of some of the projects I work on.
+
+# Canvas LMS custom frontend
+
+I maintain the GUI for [Norways largest e-learning portal](https://kompetanse.udir.no) 
+in [this repository](https://github.com/matematikk-mooc/frontend). 
+
+# LTI
+
+To expand the functionality of the GUI above, I first made some initial prototypes of an LTI module through these projects:
+
+- [KPAS-LTI](https://github.com/etsikt/KPAS-LTI)
+- [KPAS](https://github.com/matematikk-mooc/KPAS)
+
+These were later developed further into [kpas-api](https://github.com/matematikk-mooc/kpas-api) by external developers, and is now maintained by me.
+
+# Interactive video transcripts
+
+Inspired by the interactive video transcripts used in the [Coursera platform](https://www.coursera.org/), I made javascript code to do the same for
+YouTube videos. The code was later improved by [DMR-coding](https://github.com/DMR-coding), and I am proud to 
+be [accredited for my work there.](https://github.com/DMR-coding/youtube-dynamic-transcripts#acknowledgements)
+
+I've later developed the same functionality for Vimeo. That solution requires both backend and frontend code, and currently 
+the backend code is only available 
+in the KPAS-API describe above, not as an independent module. An example of how the interactive vimeo transcripts work 
+[can be seen here](https://www.erlendthune.com/vimeo/vimeo.html). Notice that you can click anywhere in the interactive transcript, to make
+the video start playing from the corresponding timestamp.
+
+# QTI converter
+[QTI](https://www.imsglobal.org/question/index.html) is as standard for exchanging digital questions. I wrote a PHP script
+to convert questions from excel to QTI, which can be [accessed here](https://www.erlendthune.com/xborrow/canvastabtoqti.php). 
+I got a request from an employee of the [Americana university in Paraguay](https://www.americana.edu.py/) to reuse the code,
+which I then [provided here](https://github.com/etsikt/canvastabtoqti).
