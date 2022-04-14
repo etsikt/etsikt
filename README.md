@@ -23,8 +23,8 @@ These were later developed further into [kpas-api](https://github.com/matematikk
 # Interactive video transcripts
 
 Inspired by the interactive video transcripts used in the [Coursera platform](https://www.coursera.org/), I made javascript code to do the same for
-YouTube videos. The code was later improved by [DMR-coding](https://github.com/DMR-coding), and I am proud to 
-be [accredited for my work there.](https://github.com/DMR-coding/youtube-dynamic-transcripts#acknowledgements)
+YouTube videos. I first mentioned the project [in the Canvas community](https://community.canvaslms.com/t5/Canvas-Developers-Group/Interactive-YouTube-transcript/m-p/159732) encouraging people to improve it. The code was later made as a separate module by 
+[DMR-coding](https://github.com/DMR-coding), and I am proud to be [accredited for my work there.](https://github.com/DMR-coding/youtube-dynamic-transcripts#acknowledgements)
 
 I've later developed the same functionality for Vimeo. That solution requires both backend and frontend code, and currently 
 the backend code is only available 
