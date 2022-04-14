@@ -28,7 +28,7 @@ YouTube videos. I first mentioned the project [in the Canvas community](https://
 
 I've later developed the same functionality for Vimeo. That solution requires both backend and frontend code, and currently 
 the backend code is only available 
-in the KPAS-API describe above, not as an independent module. An example of how the interactive vimeo transcripts work 
+in the KPAS-API described above, not as an independent module. An example of how the interactive vimeo transcripts work 
 [can be seen here](https://www.erlendthune.com/vimeo/vimeo.html). Notice that you can click anywhere in the interactive transcript, to make
 the video start playing from the corresponding timestamp.
 
